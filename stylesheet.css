@@ -1,0 +1,85 @@
+body{
+    text-align: center;
+    background-color: blanchedalmond;
+    font-family: fantasy;
+}
+
+p{
+    font-size: 2rem;
+}
+
+h6{
+    font-style: italic;
+    color: burlywood;
+    font-size: 1rem;
+}
+
+button:hover{
+    background: linear-gradient(rgb(236, 179, 135), rgb(255, 241, 219));
+}
+
+button{
+    display: block;
+    font-family: cursive;
+    border-radius: 20px;
+    background: linear-gradient( rgb(255, 241, 219),rgb(236, 179, 135));
+    font-size: 1rem;
+    width: 150px;
+    height: 50px;
+    margin: auto;
+    margin-top: 40px;
+    outline: none;
+}
+
+.heading{
+    margin-top: 30px;
+    font-size: 5rem;
+}
+
+.div1{
+    display: inline-block;
+    padding-right: 50px;
+}
+
+.div2{
+    display: inline-block;
+    padding-left: 50px;
+}
+
+.image1{
+    width: 250px;
+    border-radius: 25px;
+}
+
+.image2{
+    width: 250px;
+    border-radius: 25px;
+}
+@media (max-width: 661px) {
+    .image1{
+        width: 100px;
+        border-radius: 20px;
+
+    }
+    .image2{
+        border-radius: 20px;
+        width: 100px;
+    }
+    .heading{
+        font-size: 3rem;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+@media (max-width: 358px) {
+    .div1{
+        padding-right: 25px;
+    }
+    .div2{
+        padding-left: 25px;
+    }
+    .heading{
+        font-size: 2rem;
+    }
+}
